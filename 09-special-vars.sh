@@ -1,10 +1,5 @@
 #!/bin/bash
-
-echo "Script name: $0"
-echo "First argument: $1"
-echo "Second argument: $2"
-echo "All arguments: $@"
-echo "Number of arguments: $#"
-echo "Process ID: $$"
-echo "Last command exit status: $?"
-echo "All arguments as a single" string: $*"
+echo "All variables passed to the script:"
+for var in "$@"; do
+  echo "$var"
+done
