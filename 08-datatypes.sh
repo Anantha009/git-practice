@@ -10,4 +10,4 @@ read NUM2
 SUM=$((NUM1 + NUM2))
 
 # Display the result
-echo "The sum of $NUM1 and $NUM2
+echo "The sum of $NUM1 and $NUM2 is: $SUM"
