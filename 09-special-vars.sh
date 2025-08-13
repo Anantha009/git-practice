@@ -7,4 +7,4 @@ echo "All arguments: $@"
 echo "Number of arguments: $#"
 echo "Process ID: $$"
 echo "Last command exit status: $?"
-echo "All arguments as a single
+echo "All arguments as a single" string: $*"
